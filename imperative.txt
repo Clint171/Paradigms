@@ -1,0 +1,19 @@
+//This line of code declares and initializes a constant array with numbers 1 to 10
+const nums = [1, 2, 3, 4, 5 , 6, 7, 8, 9, 10];
+
+//This line of code declares an array we will use to display the result of our operation
+const result = [];
+
+//This is a for loop to cycle through  the nums array and check for 
+//values greater than five, which are pushed into the results array.
+for (let i = 0; i < nums.length; i++) {
+
+    //Checking if current value of nums[i] is greater than 5.
+    if (nums[i] > 5){
+        result.push(nums[i]);
+    }
+    
+ }
+
+ //This line of code displays the results array in the terminal.
+ console.log(result);
